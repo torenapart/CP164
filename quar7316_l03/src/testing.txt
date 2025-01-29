@@ -1,0 +1,65 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Toren Quarshie
+ID:      169067316
+Email:   quar7316@mylaurier.ca
+__updated__ = "2023-09-13"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+queue = Queue()
+list = [1, 2, 3, 4, 5, 6]
+target = []
+queue.insert(list)
+print(queue)
+queue_to_array(queue, target)
+print(target)
+
+Output:
+
+<Queue_array.Queue object at 0x0000014B5E48DB80>
+[[1, 2, 3, 4, 5, 6]]
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+queue = Queue()
+source = [1, 2, 3, 45, 5, 6]
+array_to_queue(queue, source)
+peek = queue.peek()
+target = queue.remove()
+
+Output: 
+Removed 1, Peek value 6
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+pq = Priority_Queue()
+list = [1, 2, 3, 44, 5, 6]
+target = []
+pq.insert(list)
+print(pq)
+pq_to_array(pq, target)
+print(target)
+
+Output:
+<Priority_Queue_array.Priority_Queue object at 0x0000014CEB39DB50>
+[[1, 2, 3, 44, 5, 6]]
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+pq = Priority_Queuey
+()
+list = [1, 2, 3, 44, 5, 6]
+pq.insert(list)
+print(pq)
+output = pq.remove()
+print(output)
+
+Output:
+<Priority_Queue_array.Priority_Queue object at 0x00000169319BDB20>
+[1, 2, 3, 44, 5, 6]
+-------------------------------------------------------
